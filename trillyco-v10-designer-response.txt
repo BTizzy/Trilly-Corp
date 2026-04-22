@@ -1,0 +1,129 @@
+Trilly Co v10 designer review response
+
+Source used: Design review for trillycorp.com.md
+
+Homepage design changes
+
+1. "Make all text on the site the same font style as the subtext below"
+Status: Fixed.
+Comment: The shared heading/display font tokens were changed so the theme now uses the same Satoshi family across body and headings, with weight and scale differences instead of a separate display family.
+
+2. "Make the heading font size smaller and adjust the sizing and spacing so the cta ll buttons and subtext can be seen in the full size screen view without having to scroll down"
+Status: Fixed.
+Comment: The hero heading was reduced, the top padding was tightened, and the CTA/support spacing was rebalanced so the hero content fits earlier in the viewport.
+
+3. "Logo"
+Status: Partially fixed.
+Comment: The live logo treatment now sits inside a dark badge so it reads properly in both light and dark mode, and the branding text was updated to "Trilly Co.". The source logo asset itself was not swapped to a new black-background file because the current approved PNG treatment was preserved.
+
+4. "Add a period after 'Trilly Co'"
+Status: Fixed.
+Comment: Updated in the header and footer brand text.
+
+5. "Make 'People operations & hiring' font color darker"
+Status: Fixed.
+Comment: The sub-brand line now uses a darker, stronger text color in light mode and white in dark mode.
+
+6. "Copy change: change 'People operations & hiring' to -> 'People Operations & Hiring'"
+Status: Fixed.
+Comment: Updated in the navigation brand block.
+
+7. "Upper navigation"
+Status: Fixed.
+Comment: "Approach" was changed to "Our Approach" and "FAQ" was changed to "FAQs" in desktop and mobile navigation.
+
+8. "CTA button section - edit copy"
+Status: Fixed.
+Comment: "I'm a small business" became "I'm a Small Business" and "I lead a startup" became "I lead a Startup". The startup button now has a filled accent treatment instead of an outline. The support line below the buttons was also darkened.
+
+9. "Color: make the blue/turquoise less saturated and darker"
+Status: Fixed.
+Comment: The accent token set was shifted to a darker, less saturated teal in both light and dark mode.
+
+10. "WHAT WE FIX card"
+Status: Fixed.
+Comment: The card now has a bold "Trilly Co." heading above the bubble, the metrics were recased to "Cleaner Hiring", "Steadier HR Ops", and "Better Follow-Through", and the card copy was revised.
+
+11. "Remove blur from 'Better follow through' rectangle"
+Status: Fixed.
+Comment: No blur effect is used on the metric chips in the current build.
+
+12. "Update copy from 'Trilly Co helps small businesses and startups build stronger hiring systems, cleaner HR workflow, and the people-side process that keeps the business running without constant firefighting.' to -> 'Trilly Co. helps Small Businesses and Startups build stronger hiring systems, seamlesscleaner HR workflows, and the people-side processes that keeps the business running without constant firefighting.'"
+Status: Fixed with normalization.
+Comment: Updated to "Trilly Co. helps Small Businesses and Startups build stronger hiring systems, seamless, cleaner HR workflows, and the people-side processes that keep the business running without constant firefighting." The obvious typo in "seamlesscleaner" and grammar in "processes that keeps" were normalized so the sentence reads correctly.
+
+13. "Dark mode"
+Status: Fixed.
+Comment: Muted gray copy was lifted to white, the eyebrow bubbles use the teal background with white text, and the theme toggle icon was set to read white in dark mode.
+
+UX changes
+
+14. "ADD a hyperlink to the bubble icon 'SEATTLE HR & HR OPERATIONS'"
+Status: Fixed.
+Comment: The hero eyebrow bubble is now linked to Services.
+
+15. "ADD a hyperlink to H1 header"
+Status: Fixed.
+Comment: The hero heading is now linked to Services.
+
+16. "All text in 'What we fix' card -> link it to our services"
+Status: Fixed.
+Comment: Each content block and each metric chip in the panel now links to Services.
+
+17. "Add hover highlight function to the 'What we fix' card so the subboxes change their background color to the turquoise when you hover over them"
+Status: Fixed.
+Comment: The signal cards and metric chips now shift to the accent teal on hover with white text.
+
+18. "Add spacing between top of cta buttons and subtext"
+Status: Fixed.
+Comment: The support text below the hero buttons now sits lower with more breathing room.
+
+Copy / messaging / content
+
+19. "Above the CTA buttons - add bolded CTA text: 'Get Started Today!'"
+Status: Fixed.
+Comment: Added directly above the hero CTA row.
+
+20. "Add 'Trilly Co.' H1 header in bold to the top of the 'What we fix' card- add it above the 'WHAT WE FIX' bubble"
+Status: Fixed.
+Comment: Added as a bold panel heading.
+
+21. "Under 'HR operations' change 'Stronger onboarding, cleaner employee workflow, better foundations' to -> 'Streamlined onboarding, cleaner employee workflow, better foundations'"
+Status: Fixed.
+Comment: Updated in the hero panel.
+
+22. "H1: 'People operations that hold up under pressure.' -> change to 'People Operations made easy.'"
+Status: Fixed.
+Comment: Updated in the hero.
+
+23. "In the 'what we fix' card - can you explain what you mean by 'Fewer manual workarounds - less dependence on heroics and tribal knowledge.' under 'operational cleanup'??"
+Status: Fixed.
+Comment: Rewritten to "Fewer manual workarounds, less dependence on heroics, and process people can actually follow."
+
+24. "Under 'Execution support' revisit / change 'Close-to-the-work help that moves from plan to done without losing momentum' to -> '24/7 help that moves from plan to done without losing momentum'"
+Status: Fixed.
+Comment: Updated in the hero panel.
+
+Additional visible cleanup completed
+
+25. Navigation and footer CTA language
+Status: Fixed.
+Comment: "Get started" was updated to "Get Started Today" in the nav, mobile nav, contact eyebrow, and footer link.
+
+26. Footer branding punctuation
+Status: Fixed.
+Comment: Footer brand text now reads "Trilly Co.".
+
+Open items not directly implemented from the broader review headings
+
+27. "SEO and local search optimization for Seattle area"
+Status: Not specifically addressed in this pass.
+Comment: The homepage visual/copy review items were implemented, but no dedicated SEO schema, metadata expansion, or local landing-page structure work was added beyond existing page copy.
+
+28. "Trust elements and social proof"
+Status: Not specifically addressed in this pass.
+Comment: No new testimonial, proof, client logo, or case-study section was introduced.
+
+29. "Rachel to flesh out more"
+Status: Open.
+Comment: This appears to be a note for future content expansion rather than a concrete implementation instruction.
