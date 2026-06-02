@@ -18,11 +18,15 @@
 
     <!-- Brand -->
     <a class="brand" href="<?php echo esc_url(home_url('/')); ?>" aria-label="Trilly Co — home">
-      <span class="brand-logo-wrap" aria-hidden="true">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"/>
-          <text x="14" y="19" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="800" font-size="14" fill="currentColor">T</text>
-        </svg>
+      <span class="brand-logo-wrap">
+        <img
+          class="brand-logo-img"
+          src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo-trilly-co.svg'); ?>"
+          alt="Trilly Co logo"
+          width="44"
+          height="44"
+          loading="eager"
+        >
       </span>
       <span>
         <strong>Trilly Co.</strong>

@@ -50,18 +50,18 @@ get_header();
         </a>
       </div>
       <div class="metric-strip">
-        <a class="metric-chip signal-link" href="#services">
+        <div class="metric-chip">
           <strong>Cleaner Hiring</strong>
           <span>More consistency</span>
-        </a>
-        <a class="metric-chip signal-link" href="#services">
+        </div>
+        <div class="metric-chip">
           <strong>Steadier HR Ops</strong>
           <span>Less reactivity</span>
-        </a>
-        <a class="metric-chip signal-link" href="#services">
+        </div>
+        <div class="metric-chip">
           <strong>Better Follow-Through</strong>
           <span>More clarity</span>
-        </a>
+        </div>
       </div>
     </aside>
 

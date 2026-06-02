@@ -222,32 +222,27 @@ input,textarea,select { font: inherit; color: inherit; }
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: var(--tx);
-  color: var(--bg);
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+  background: var(--surf);
+  border: 1px solid var(--border);
+  transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease);
 }
 .brand-logo-img {
-  width: 86%;
-  height: 86%;
+  width: 80%;
+  height: 80%;
   object-fit: contain;
   display: block;
-  mix-blend-mode: normal;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
 }
-/* Hide old Trillium logo on contact section */
-#contact .brand-logo-wrap,
-.contact-shell .brand-logo-wrap {
-  display: none;
-}
+
 [data-theme="dark"] .brand-logo-wrap {
-  background: var(--tx);
-  color: var(--bg);
+  background: var(--surf2);
+  border-color: var(--border);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) .brand-logo-wrap {
-    background: var(--tx);
-    color: var(--bg);
+    background: var(--surf2);
+    border-color: var(--border);
   }
 }
 .brand:hover .brand-logo-wrap {
@@ -443,6 +438,8 @@ input,textarea,select { font: inherit; color: inherit; }
 .hero {
   padding-top: var(--sp-8);
   padding-bottom: var(--sp-10);
+  background: var(--bg);
+  border-bottom: 1px solid var(--divider);
 }
 .hero-grid {
   display: grid;
@@ -490,17 +487,18 @@ input,textarea,select { font: inherit; color: inherit; }
 
 /* right panel */
 .hero-panel {
-  background: linear-gradient(160deg, var(--surf) 0%, var(--surf2) 100%);
+  background: var(--surf);
   border: 1px solid var(--border); border-radius: var(--r-xl);
-  padding: var(--sp-6);
-  box-shadow: var(--sh-lg); position: relative; overflow: hidden;
+  padding: var(--sp-5);
+  box-shadow: var(--sh-md); position: relative; overflow: hidden;
 }
 .hero-panel::after {
   content: ''; position: absolute;
   inset: auto -8% -18% auto;
-  width: 240px; height: 240px;
+  width: 180px; height: 180px;
   background: radial-gradient(circle, var(--smb-soft) 0%, transparent 72%);
   pointer-events: none;
+  opacity: .5;
 }
 .panel-eyebrow { margin-bottom: var(--sp-4); }
 .panel-brand {
@@ -523,14 +521,16 @@ input,textarea,select { font: inherit; color: inherit; }
   transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease), transform var(--dur) var(--ease), color var(--dur) var(--ease);
 }
 .signal-link:hover {
-  background: var(--accent);
-  border-color: color-mix(in oklab, var(--accent) 65%, white 10%);
-  transform: translateY(-2px);
+  background: var(--surf2);
+  border-color: var(--border);
+  transform: translateY(-1px);
 }
-.signal-link:hover strong,
-.signal-link:hover p,
-.signal-link:hover span {
-  color: #fff;
+.signal-link:hover strong {
+  color: var(--accent);
+}
+[data-theme="dark"] .signal-link:hover {
+  background: var(--surf3);
+  border-color: color-mix(in oklab, var(--accent) 25%, var(--border));
 }
 .signal-card strong {
   display: block;
@@ -573,10 +573,13 @@ input,textarea,select { font: inherit; color: inherit; }
   border-color: color-mix(in oklab, var(--accent) 72%, white 8%);
   color: #fff;
 }
-[data-theme="dark"] .signal-card,
+[data-theme="dark"] .signal-card {
+  background: color-mix(in oklab, var(--accent) 12%, var(--surf));
+  border-color: color-mix(in oklab, var(--accent) 20%, var(--border));
+}
 [data-theme="dark"] .metric-chip {
-  background: color-mix(in oklab, var(--accent) 18%, var(--surf));
-  border-color: color-mix(in oklab, var(--accent) 30%, var(--border));
+  background: var(--surf);
+  border-color: var(--border);
 }
 [data-theme="dark"] .signal-card strong,
 [data-theme="dark"] .metric-chip strong {
@@ -599,6 +602,7 @@ input,textarea,select { font: inherit; color: inherit; }
   border-radius: var(--r-lg);
   background: var(--surf);
   border: 1px solid var(--border); box-shadow: var(--sh-sm);
+  text-align: center;
 }
 .stat-card .label {
   font-size: var(--text-xs); font-weight: 700; letter-spacing: .06em;
@@ -614,6 +618,7 @@ input,textarea,select { font: inherit; color: inherit; }
 .stat-card p {
   font-size: var(--text-sm); color: var(--tx-muted);
   max-width: unset; line-height: 1.5;
+  margin-inline: auto;
 }
 
 /* ──────────────────────────────────────────────
