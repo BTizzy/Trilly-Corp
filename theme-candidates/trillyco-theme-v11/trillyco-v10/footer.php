@@ -8,9 +8,10 @@
         <!-- Col 1: Brand -->
         <div class="footer-col">
           <strong>Trilly Co.</strong>
-          <p>An operating studio and parent company. Trilly Co. builds and runs small service businesses under one shared standard — starting with Trillium Hiring, its first company.</p>
+          <p>An operating studio that runs hiring and HR operations for small businesses and startups. We build the people systems that founders shouldn't have to carry alone.</p>
+          <!-- Sister company link -->
           <a class="footer-trillium-link" href="https://www.trilliumhiring.com/" target="_blank" rel="noopener">
-            Trillium Hiring →
+            Trillium Hiring Services
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
             </svg>

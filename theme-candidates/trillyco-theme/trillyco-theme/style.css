@@ -1,0 +1,63 @@
+/*
+Theme Name: Trilly Co One Page
+Theme URI: https://trillycorp.com/
+Author: Trilly Co
+Description: A warm, welcoming one-page theme for Trilly Co, featuring Trillium Hiring Services for SMBs.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: trillyco-theme
+Tags: one-page, responsive, warm, business, hr
+*/
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9f6f2;
+  color: #2d2d2d;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #2a7a5e;
+}
+
+.cta-button {
+  background: #2a7a5e;
+  color: #fff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cta-button:hover {
+  background: #1e5944;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(120deg, #e0f7ef 0%, #f9f6f2 100%);
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.offerings {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(42,122,94,0.07);
+  margin-top: -40px;
+}
+
+.brand-section {
+  margin-top: 40px;
+  text-align: center;
+}

@@ -4,7 +4,7 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Trilly Co. is the operating studio and parent company behind Trillium Hiring — hands-on recruiting and HR operations for small businesses and startups in Seattle.">
+  <meta name="description" content="Trilly Co — hands-on HR operations and hiring systems for small businesses and startups in Seattle. Get cleaner people process without the overhead.">
   <title><?php wp_title('·', true, 'right'); ?><?php bloginfo('name'); ?></title>
   <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
   <?php wp_head(); ?>
@@ -30,7 +30,7 @@
       </span>
       <span>
         <strong>Trilly Co.</strong>
-        <span class="brand-sub">Operating Studio</span>
+        <span class="brand-sub">People Operations &amp; Hiring</span>
       </span>
     </a>
 

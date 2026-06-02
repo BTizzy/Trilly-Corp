@@ -13,16 +13,16 @@ get_header();
     <!-- Left: copy -->
     <div class="reveal">
       <div class="hero-kicker">
-        <a class="eyebrow hero-link" href="#services"><span class="dot"></span>Seattle · Operating Studio</a>
+        <a class="eyebrow hero-link" href="#services"><span class="dot"></span>Seattle · HR &amp; HR Operations</a>
       </div>
       <a class="hero-title-link" href="#services">
-        <h1 class="hero-h1">The operating studio behind Trillium Hiring.</h1>
+        <h1 class="hero-h1">Hiring and HR, run with you — not handed off.</h1>
       </a>
-      <p class="hero-lead">Trilly Co. is the parent company and brand home for Trillium Hiring — hands-on recruiting and HR operations for small businesses and startups in Seattle and the PNW.</p>
+      <p class="hero-lead">If you're a founder or operator spending more time on people problems than building, Trilly Co. helps you hire better, clean up HR workflow, and put systems in place that actually hold up.</p>
       <p class="hero-cta-copy"><strong>Get Started Today!</strong></p>
       <div class="btn-row hero-btns">
-        <a class="btn btn-smb"     href="https://www.trilliumhiring.com/thr-smb/" target="_blank" rel="noopener">Small Business Package</a>
-        <a class="btn btn-startup" href="https://www.trilliumhiring.com/thr-hgs/" target="_blank" rel="noopener">Startup Package</a>
+        <a class="btn btn-smb"     href="#who-we-help" data-route-audience="small-business">I'm a Small Business</a>
+        <a class="btn btn-startup" href="#who-we-help" data-route-audience="startup">I lead a Startup</a>
       </div>
       <p class="hero-micro">20-minute first call. We'll tell you in the first five minutes if we're a fit — and if we're not, we'll point you to someone who is.</p>
     </div>
@@ -30,23 +30,23 @@ get_header();
     <!-- Right: overview panel -->
     <aside class="hero-panel reveal" aria-label="What we improve">
       <p class="panel-brand"><strong><a href="#services">Trilly Co.</a></strong></p>
-      <a class="eyebrow panel-eyebrow hero-link" href="https://www.trilliumhiring.com/" target="_blank" rel="noopener">Trillium Hiring →</a>
+      <a class="eyebrow panel-eyebrow hero-link" href="#services">What we fix</a>
       <div class="signal-grid">
-        <a class="signal-card signal-link" href="https://www.trilliumhiring.com/thr-smb/" target="_blank" rel="noopener">
-          <strong>Small Business</strong>
-          <p>Stop being your own HR department. Onboarding, compliance, and steady hiring support.</p>
+        <a class="signal-card signal-link" href="#services">
+          <strong>Recruiting systems</strong>
+          <p>A hiring process your team can trust, consistent, usable, and built to scale.</p>
         </a>
-        <a class="signal-card signal-link" href="https://www.trilliumhiring.com/thr-hgs/" target="_blank" rel="noopener">
-          <strong>Startup</strong>
-          <p>Look like you have a Head of People before you hire one. Recruiting ops and HR systems that scale.</p>
+        <a class="signal-card signal-link" href="#services">
+          <strong>HR operations</strong>
+          <p>Streamlined onboarding, cleaner employee workflow, better foundations.</p>
         </a>
-        <a class="signal-card signal-link" href="https://www.trilliumhiring.com/" target="_blank" rel="noopener">
-          <strong>Fractional HR</strong>
-          <p>Ongoing embedded HR leadership without the full-time cost.</p>
+        <a class="signal-card signal-link" href="#services">
+          <strong>Operational cleanup</strong>
+          <p>Fewer manual workarounds, less dependence on heroics, and process people can actually follow.</p>
         </a>
-        <a class="signal-card signal-link" href="#contact">
-          <strong>General inquiry</strong>
-          <p>Not sure which fit is right? Start with a 20-minute call.</p>
+        <a class="signal-card signal-link" href="#services">
+          <strong>Execution support</strong>
+          <p>24/7 help that moves from plan to done without losing momentum.</p>
         </a>
       </div>
       <div class="metric-strip">
@@ -99,32 +99,6 @@ get_header();
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════
-     PROOF BAR
-     ═══════════════════════════════════════════════ -->
-<section class="sec sec-tight">
-  <div class="wrap">
-    <div class="proof-bar reveal">
-      <div class="proof-item">
-        <strong>200+</strong>
-        <span>placements</span>
-      </div>
-      <div class="proof-item">
-        <strong>30+</strong>
-        <span>companies</span>
-      </div>
-      <div class="proof-item">
-        <strong>32 days</strong>
-        <span>avg time-to-fill</span>
-      </div>
-      <div class="proof-item">
-        <strong>9.2</strong>
-        <span>Founder NPS</span>
-      </div>
-    </div>
-  </div>
-</section>
-
 
 <!-- ═══════════════════════════════════════════════════
      ICP CHOOSER — primary conversion section
@@ -134,16 +108,16 @@ get_header();
     <div class="icp-intro reveal">
       <span class="eyebrow"><span class="dot"></span>Who we help</span>
       <h2>You're hiring. The system behind it is a mess.</h2>
-      <p>Trillium Hiring — the first company under the Trilly Co. studio — builds the hiring and people systems that stop being the bottleneck for small businesses and startups in Seattle and the PNW.</p>
+      <p>Whether you're a small business owner doing HR on the side or a startup founder trying to scale the team before the runway runs out — we build the hiring and people systems that stop being the bottleneck.</p>
     </div>
 
     <div class="icp-grid">
 
       <!-- ── SMALL BUSINESS — primary / featured ── -->
-      <a class="audience-card is-smb audience-card-link reveal" href="https://www.trilliumhiring.com/thr-smb/" target="_blank" rel="noopener">
+      <article class="audience-card is-smb reveal" data-audience-card="small-business">
         <span class="a-best-fit">Most requested</span>
         <span class="a-tag a-tag-smb">Small business</span>
-        <h3>Stop being your own HR department. →</h3>
+        <h3>Stop being your own HR department.</h3>
         <p class="a-desc">Best fit when one person is carrying too much HR weight, the basics were never fully built, or informal systems have quietly become the bottleneck.</p>
         <ul>
           <li>Onboarding, employee workflow, and process cleanup that actually sticks.</li>
@@ -152,14 +126,15 @@ get_header();
           <li>Practical support that brings more consistency in without overbuilding.</li>
         </ul>
         <div class="a-btns">
-          <span class="btn btn-smb">View Small Business Package</span>
+          <a class="btn btn-smb"     href="#contact" data-route-audience="small-business">Start the conversation</a>
+          <a class="btn btn-ghost"   href="#services">See services</a>
         </div>
-      </a>
+      </article>
 
       <!-- ── STARTUP ── -->
-      <a class="audience-card is-startup audience-card-link reveal" href="https://www.trilliumhiring.com/thr-hgs/" target="_blank" rel="noopener">
+      <article class="audience-card is-startup reveal" data-audience-card="startup">
         <span class="a-tag a-tag-startup">Startup</span>
-        <h3>Look like you have a Head of People before you hire one. →</h3>
+        <h3>Look like you have a Head of People before you hire one.</h3>
         <p class="a-desc">Best fit when hiring is active but the system behind it feels fragile, too manual, or is producing inconsistent results the team can feel.</p>
         <ul>
           <li>Recruiting ops support — ATS cleanup, interview structure, scorecards, stage alignment.</li>
@@ -168,9 +143,10 @@ get_header();
           <li>Systems that hold up as the team and hiring volume grow.</li>
         </ul>
         <div class="a-btns">
-          <span class="btn btn-startup">View Startup Package</span>
+          <a class="btn btn-startup" href="#contact" data-route-audience="startup">Start the conversation</a>
+          <a class="btn btn-ghost"   href="#services">See services</a>
         </div>
-      </a>
+      </article>
 
     </div><!-- .icp-grid -->
   </div>
@@ -183,43 +159,43 @@ get_header();
 <section class="sec" id="services">
   <div class="wrap">
     <header class="s-head reveal">
-      <span class="eyebrow"><span class="dot"></span>Trillium Hiring Services</span>
-      <h2>Practical hiring and HR support, run with you — not handed off.</h2>
-      <p>Trillium Hiring is the first company under the Trilly Co. studio. Every engagement starts with a 20-minute call. We diagnose the friction, prioritize the moves, build the system, and stay close until it sticks.</p>
+      <span class="eyebrow"><span class="dot"></span>Services</span>
+      <h2>What we do — and how it works.</h2>
+      <p>Every engagement starts with a 20-minute call. We diagnose the friction, prioritize the moves, build the system, and stay close until it sticks. No slide decks that sit in a drawer.</p>
     </header>
     <div class="service-grid">
 
-      <a class="service-card service-card-link reveal" href="https://www.trilliumhiring.com/thr-smb/" target="_blank" rel="noopener">
+      <article class="service-card reveal">
         <div class="service-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
           </svg>
         </div>
-        <h3>Small Business →</h3>
-        <p class="service-card-tagline">Stop being your own HR department.</p>
+        <h3>Hiring &amp; recruiting operations</h3>
         <ul class="bullet-list">
-          <li>Onboarding, compliance, and employee workflow that actually sticks.</li>
-          <li>Recruiting help for steady operational hiring.</li>
-          <li>HR foundations built right the first time.</li>
-          <li>Practical support that brings more consistency without overbuilding.</li>
+          <li>ATS structure, stage logic, and process refinement that reduces rework.</li>
+          <li>Interview design, handoff improvements, and scorecard support.</li>
+          <li>Visibility and coordination across multiple open roles and pipelines.</li>
+          <li>Execution support when speed matters and internal bandwidth is thin.</li>
         </ul>
-      </a>
+      </article>
 
-      <a class="service-card service-card-link reveal" href="https://www.trilliumhiring.com/thr-hgs/" target="_blank" rel="noopener">
+      <article class="service-card reveal">
         <div class="service-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
           </svg>
         </div>
-        <h3>Startup →</h3>
-        <p class="service-card-tagline">Look like you have a Head of People before you hire one.</p>
+        <h3>HR &amp; people operations</h3>
         <ul class="bullet-list">
-          <li>Recruiting ops — ATS cleanup, interview structure, scorecards.</li>
-          <li>Lean-team support that stays close to the work.</li>
-          <li>Systems that hold up as hiring volume grows.</li>
-          <li>Execution help when speed matters and bandwidth is thin.</li>
+          <li>Onboarding and employee process that holds up over time and sets people up well.</li>
+          <li>Structural support for businesses that need stronger HR foundations.</li>
+          <li>Operational cleanup where process has become reactive or scattered.</li>
+          <li>Work that makes the business easier to run and easier for people to move through.</li>
         </ul>
-      </a>
+      </article>
 
     </div><!-- .service-grid -->
   </div>
@@ -358,13 +334,16 @@ get_header();
   <div class="wrap">
     <div class="trillium-band reveal">
       <div class="trillium-band-copy">
-        <span class="eyebrow">Trillium Hiring — a Trilly Co. company</span>
-        <h3>The first company under the studio.</h3>
-        <p>Trillium Hiring is the first operating company under the Trilly Co. studio. It delivers hands-on recruiting and HR operations for small businesses and startups — with clear packages, direct delivery, and a track record of 200+ placements across 30+ companies. As the studio grows, Trilly Co. will add more companies and services under the same standard.</p>
+        <span class="eyebrow">Also from the same team</span>
+        <h3>Trillium Hiring Services — fractional HR leadership for growing companies.</h3>
+        <p>For businesses that need ongoing, embedded HR leadership without the full-time cost, Trillium Hiring Services offers fractional HR support, compliance guidance, and people-strategy resources. Same founder, same practical approach.</p>
       </div>
       <div class="trillium-band-actions">
         <a class="btn btn-outline" href="https://www.trilliumhiring.com/" target="_blank" rel="noopener">
-          Explore Trillium Hiring →
+          Visit Trillium Hiring
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
         </a>
       </div>
     </div>
@@ -402,23 +381,18 @@ get_header();
     <div class="faq-stack">
 
       <article class="faq-item reveal">
-        <h3>What is Trilly Co.?</h3>
-        <p>Trilly Co. is an operating studio — a parent company that builds and runs several small service businesses under one shared standard. Trillium Hiring is the first company under the studio. The trillium flower has three petals. We treat that as three commitments: the brand stays coherent, the operators stay senior, and the work stays close to delivery.</p>
+        <h3>What does Trilly Co. actually do?</h3>
+        <p>We run hiring and HR operations for small businesses and startups. That means recruiting systems, onboarding, HR workflow, compliance basics, and the day-to-day people work that founders shouldn't have to carry alone. Think of us as the Head of People you're not ready to hire full-time.</p>
       </article>
 
       <article class="faq-item reveal">
-        <h3>What is Trillium Hiring?</h3>
-        <p>Trillium Hiring is the first operating company under the Trilly Co. studio. It delivers hands-on recruiting and HR operations for small businesses and startups in Seattle and the PNW — with clear packages, direct delivery, and 200+ placements across 30+ companies.</p>
+        <h3>Is this a better fit for small businesses or startups?</h3>
+        <p>Both, but the work shows up differently. Small businesses typically need steadier HR support, onboarding structure, and process cleanup. Startups tend to need recruiting operations and systems that can hold up as hiring volume grows. The underlying problem is the same: fragile systems and overloaded operators.</p>
       </article>
 
       <article class="faq-item reveal">
-        <h3>What services does Trillium Hiring offer?</h3>
-        <p>Two main packages: <strong>Small Business</strong> (stop being your own HR department — onboarding, compliance, steady hiring) and <strong>Startup</strong> (look like you have a Head of People before you hire one — recruiting ops, HR systems that scale). Both include fractional HR leadership and hands-on execution support.</p>
-      </article>
-
-      <article class="faq-item reveal">
-        <h3>Who is this site for?</h3>
-        <p>If you're a small business owner or startup founder in Seattle/King County dealing with hiring or HR friction, start with Trillium Hiring's packages. If you're interested in the studio model, future companies under Trilly Co., or partnership opportunities, use the contact form.</p>
+        <h3>Is this strategic consulting or hands-on execution support?</h3>
+        <p>Both. Engagements always include systems thinking and process design, but the work stays close to execution. The goal is implementations that are actually usable — not strategies that sit in a document until someone has bandwidth to revisit them.</p>
       </article>
 
       <article class="faq-item reveal">
@@ -429,6 +403,11 @@ get_header();
       <article class="faq-item reveal">
         <h3>What problems are the strongest fit?</h3>
         <p>Usually some mix of recruiting friction, HR process gaps, onboarding weakness, or workflow that has outgrown the informal systems holding it together. If the team is growing and the people-side is struggling to keep up — or if one person is carrying more process weight than is sustainable — that is the right conversation to start.</p>
+      </article>
+
+      <article class="faq-item reveal">
+        <h3>Why "Trilly Co."? Is there a connection to Trillium Hiring?</h3>
+        <p>Yes. Trilly Co. is the operating studio behind Trillium Hiring. The trillium flower has three petals — we see that as three commitments: the brand stays coherent, the operators stay senior, and the work stays close to delivery. <a href="https://www.trilliumhiring.com/" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;">Trillium Hiring Services</a> focuses on fractional HR leadership and compliance. Trilly Co. focuses on hands-on recruiting ops and HR process work. We can help you figure out which is the right fit.</p>
       </article>
 
     </div><!-- .faq-stack -->
@@ -447,12 +426,12 @@ get_header();
       <div class="contact-copy">
         <span class="eyebrow"><span class="dot"></span>Get Started Today</span>
         <h2>Start here.</h2>
-        <p>Share a bit about the business, what feels messy, and where support would make the biggest difference. We'll tell you in the first five minutes if Trillium Hiring is the right fit — and if it's not, we'll point you to someone who is.</p>
+        <p>Share a bit about the business, what feels messy, and where support would make the biggest difference. We'll tell you in the first five minutes if we're a fit — and if we're not, we'll point you to someone who is.</p>
         <div class="contact-meta">
           <span>Small business — stop doing HR alone</span>
           <span>Startup — hire like you have a Head of People</span>
-          <span>Fractional HR leadership</span>
-          <span>General / partnership inquiry</span>
+          <span>General inquiry</span>
+          <span>Trillium Hiring Services</span>
         </div>
       </div>
 
