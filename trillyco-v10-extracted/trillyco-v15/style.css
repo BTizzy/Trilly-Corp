@@ -2,7 +2,7 @@
 Theme Name: Trilly Co
 Theme URI: https://trillycorp.com/
 Author: Trilly Co
-Version: 2.0.0
+Version: 15.0.0
 Requires at least: 6.0
 Tested up to: 6.6
 Requires PHP: 7.4
@@ -222,39 +222,28 @@ input,textarea,select { font: inherit; color: inherit; }
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: linear-gradient(135deg, #f5f3ed 0%, #ece8df 100%);
+  background: var(--surf);
   border: 1px solid var(--border);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.4), 0 2px 8px rgba(0,0,0,.06);
   transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
 }
 .brand:hover .brand-logo-wrap {
   transform: translateY(-1px);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.4), 0 4px 12px rgba(0,0,0,.1);
+  box-shadow: var(--sh-md);
 }
 .brand-logo-img {
-  width: 90%;
-  height: 90%;
+  width: 85%;
+  height: 85%;
   object-fit: contain;
   display: block;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,.08));
 }
 [data-theme="dark"] .brand-logo-wrap {
-  background: linear-gradient(135deg, #2a2620 0%, #1f1c18 100%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 2px 8px rgba(0,0,0,.2);
-}
-[data-theme="dark"] .brand:hover .brand-logo-wrap {
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 4px 12px rgba(0,0,0,.3);
-}
-[data-theme="dark"] .brand-logo-img {
-  filter: drop-shadow(0 1px 3px rgba(0,0,0,.3));
+  background: var(--surf2);
+  border-color: var(--border);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) .brand-logo-wrap {
-    background: linear-gradient(135deg, #2a2620 0%, #1f1c18 100%);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 2px 8px rgba(0,0,0,.2);
-  }
-  :root:not([data-theme]) .brand:hover .brand-logo-wrap {
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 4px 12px rgba(0,0,0,.3);
+    background: var(--surf2);
+    border-color: var(--border);
   }
 }
 .brand-sub {
@@ -472,6 +461,9 @@ input,textarea,select { font: inherit; color: inherit; }
 .hero-title-link {
   display: inline-block;
 }
+.hero-title-link:hover {
+  color: inherit;
+}
 .hero-link,
 .hero-title-link {
   transition: transform var(--dur) var(--ease), color var(--dur) var(--ease), background var(--dur) var(--ease);
@@ -503,8 +495,8 @@ input,textarea,select { font: inherit; color: inherit; }
 }
 .hero-panel::before {
   content: ''; position: absolute;
-  inset: -1px;
-  border-radius: var(--r-xl);
+  inset: 0;
+  border-radius: inherit;
   background:
     radial-gradient(ellipse 80% 60% at 85% 15%, color-mix(in oklab, var(--smb) 8%, transparent) 0%, transparent 70%),
     radial-gradient(ellipse 60% 40% at 15% 85%, color-mix(in oklab, var(--accent) 6%, transparent) 0%, transparent 70%);
@@ -706,14 +698,6 @@ input,textarea,select { font: inherit; color: inherit; }
   border: 1px solid var(--border); box-shadow: var(--sh-sm);
   position: relative; overflow: hidden;
 }
-.audience-card::before {
-  content: '';
-  position: absolute; inset: -1px; border-radius: var(--r-2xl);
-  opacity: 0;
-  transition: opacity .25s var(--ease);
-  pointer-events: none;
-}
-
 /* SMB card — primary, featured */
 .audience-card.is-smb {
   background: linear-gradient(160deg,

@@ -262,7 +262,7 @@ get_header();
       <h2>From reactive process to a steady operating rhythm.</h2>
       <p>The best systems are not just well designed — they are grounded in how the team actually works and maintained well enough to stay that way.</p>
     </header>
-    <div class="process-grid reveal reveal-stagger">
+    <div class="process-grid reveal-stagger">
       <article class="process-card">
         <span class="process-num">01</span>
         <h3>Diagnose the friction</h3>
