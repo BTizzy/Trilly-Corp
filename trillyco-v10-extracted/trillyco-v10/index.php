@@ -133,7 +133,7 @@ get_header();
   <div class="wrap">
     <div class="icp-intro reveal">
       <span class="eyebrow"><span class="dot"></span>Who we help</span>
-      <h2>You're hiring. The system behind it is a mess.</h2>
+      <h2>Hiring is happening. The system behind it isn't holding up.</h2>
       <p>Trillium Hiring — the first company under the Trilly Co. studio — builds the hiring and people systems that stop being the bottleneck for small businesses and startups in Seattle and the PNW.</p>
     </div>
 
@@ -295,8 +295,8 @@ get_header();
   <div class="wrap">
     <header class="s-head reveal">
       <span class="eyebrow"><span class="dot"></span>Support areas</span>
-      <h2>Where Trilly Co shows up and does the work.</h2>
-      <p>Support lands where people operations most often breaks down — hiring systems, onboarding, workflow structure, and the operational details that compound when left unaddressed.</p>
+      <h2>Where the work actually breaks down.</h2>
+      <p>Hiring systems, onboarding, workflow structure — the operational details that compound when left unaddressed. That's where we show up.</p>
     </header>
     <div class="support-pair">
 

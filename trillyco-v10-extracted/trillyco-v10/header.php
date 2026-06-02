@@ -21,8 +21,8 @@
       <span class="brand-logo-wrap">
         <img
           class="brand-logo-img"
-          src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo-trilly-co.svg'); ?>"
-          alt="Trilly Co logo"
+          src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo-trillium-transparent.png'); ?>"
+          alt="Trilly Co — trillium flower"
           width="44"
           height="44"
           loading="eager"
