@@ -18,20 +18,20 @@ get_header();
       <a class="hero-title-link" href="#services">
         <h1 class="hero-h1">The operating studio behind Trillium Hiring.</h1>
       </a>
-      <p class="hero-lead">Trilly Co. is the parent company and brand home for Trillium Hiring — hands-on recruiting and HR operations for small businesses and startups in Seattle and the PNW.</p>
+      <p class="hero-lead">Trilly Co. is the parent company and brand home for Trillium Hiring — your partner in hands-on recruiting and HR operations for small businesses and startups in Seattle and the PNW.</p>
       <p class="hero-cta-copy"><strong>Get Started Today!</strong></p>
       <div class="btn-row hero-btns">
         <a class="btn btn-smb"     href="https://www.trilliumhiring.com/thr-smb/" target="_blank" rel="noopener">Small Business Package</a>
         <a class="btn btn-startup" href="https://www.trilliumhiring.com/thr-hgs/" target="_blank" rel="noopener">Startup Package</a>
       </div>
-      <p class="hero-micro">20-minute first call. We'll tell you in the first five minutes if we're a fit — and if we're not, we'll point you to someone who is.</p>
+      <p class="hero-micro">20-minute first call. Straight answer by minute five — fit or not.</p>
     </div>
 
     <!-- Right: overview panel -->
     <aside class="hero-panel reveal" aria-label="What we improve">
       <p class="panel-brand"><strong><a href="#services">Trilly Co.</a></strong></p>
       <a class="eyebrow panel-eyebrow hero-link" href="https://www.trilliumhiring.com/" target="_blank" rel="noopener">Trillium Hiring →</a>
-      <div class="signal-grid">
+      <div class="signal-grid reveal-stagger">
         <a class="signal-card signal-link" href="https://www.trilliumhiring.com/thr-smb/" target="_blank" rel="noopener">
           <strong>Small Business</strong>
           <p>Stop being your own HR department. Onboarding, compliance, and steady hiring support.</p>
@@ -51,16 +51,16 @@ get_header();
       </div>
       <div class="metric-strip">
         <div class="metric-chip">
-          <strong>Cleaner Hiring</strong>
-          <span>More consistency</span>
+          <strong>Fewer Dropped Balls</strong>
+          <span>Nothing slips through</span>
         </div>
         <div class="metric-chip">
-          <strong>Steadier HR Ops</strong>
-          <span>Less reactivity</span>
+          <strong>Less HR Firefighting</strong>
+          <span>More steady ops</span>
         </div>
         <div class="metric-chip">
-          <strong>Better Follow-Through</strong>
-          <span>More clarity</span>
+          <strong>Hires That Stick</strong>
+          <span>Better retention</span>
         </div>
       </div>
     </aside>
@@ -137,7 +137,7 @@ get_header();
       <p>Trillium Hiring — the first company under the Trilly Co. studio — builds the hiring and people systems that stop being the bottleneck for small businesses and startups in Seattle and the PNW.</p>
     </div>
 
-    <div class="icp-grid">
+    <div class="icp-grid reveal-stagger">
 
       <!-- ── SMALL BUSINESS — primary / featured ── -->
       <a class="audience-card is-smb audience-card-link reveal" href="https://www.trilliumhiring.com/thr-smb/" target="_blank" rel="noopener">
@@ -187,7 +187,7 @@ get_header();
       <h2>Practical hiring and HR support, run with you — not handed off.</h2>
       <p>Trillium Hiring is the first company under the Trilly Co. studio. Every engagement starts with a 20-minute call. We diagnose the friction, prioritize the moves, build the system, and stay close until it sticks.</p>
     </header>
-    <div class="service-grid">
+    <div class="service-grid reveal-stagger">
 
       <a class="service-card service-card-link reveal" href="https://www.trilliumhiring.com/thr-smb/" target="_blank" rel="noopener">
         <div class="service-icon" aria-hidden="true">
@@ -232,7 +232,7 @@ get_header();
 <section class="sec">
   <div class="wrap info-pair">
     <article class="info-card reveal">
-      <h3>What teams are usually dealing with</h3>
+      <h3>Where it hurts</h3>
       <ul class="bullet-list">
         <li>Hiring is active but the system behind it is uneven and hard to rely on.</li>
         <li>HR work lives in too many places and depends too much on a single person.</li>
@@ -241,7 +241,7 @@ get_header();
       </ul>
     </article>
     <article class="info-card reveal">
-      <h3>What it looks like on the other side</h3>
+      <h3>What changes</h3>
       <p>A cleaner hiring system. Better structure around employee process. More confidence in how work moves. Fewer avoidable handoff problems. And more capacity for the team to focus on building instead of constant repair.</p>
       <div class="btn-row" style="margin-top: var(--sp-8);">
         <a class="btn btn-smb"     href="#contact" data-route-audience="small-business">Small business inquiry</a>
@@ -262,7 +262,7 @@ get_header();
       <h2>From reactive process to a steady operating rhythm.</h2>
       <p>The best systems are not just well designed — they are grounded in how the team actually works and maintained well enough to stay that way.</p>
     </header>
-    <div class="process-grid reveal">
+    <div class="process-grid reveal reveal-stagger">
       <article class="process-card">
         <span class="process-num">01</span>
         <h3>Diagnose the friction</h3>
@@ -446,7 +446,7 @@ get_header();
       <!-- Left: copy -->
       <div class="contact-copy">
         <span class="eyebrow"><span class="dot"></span>Get Started Today</span>
-        <h2>Start here.</h2>
+        <h2>Take the first step.</h2>
         <p>Share a bit about the business, what feels messy, and where support would make the biggest difference. We'll tell you in the first five minutes if Trillium Hiring is the right fit — and if it's not, we'll point you to someone who is.</p>
         <div class="contact-meta">
           <span>Small business — stop doing HR alone</span>
