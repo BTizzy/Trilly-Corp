@@ -8,7 +8,7 @@
         <!-- Col 1: Brand -->
         <div class="footer-col">
           <strong>Trilly Co.</strong>
-          <p>Hands-on HR operations and hiring systems for small businesses and startups in Seattle and beyond.</p>
+          <p>An operating studio that runs hiring and HR operations for small businesses and startups. We build the people systems that founders shouldn't have to carry alone.</p>
           <!-- Sister company link -->
           <a class="footer-trillium-link" href="https://www.trilliumhiring.com/" target="_blank" rel="noopener">
             Trillium Hiring Services
