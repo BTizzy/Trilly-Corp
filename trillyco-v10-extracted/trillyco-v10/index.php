@@ -16,7 +16,7 @@ get_header();
         <a class="eyebrow hero-link" href="#services"><span class="dot"></span>Seattle · HR &amp; HR Operations</a>
       </div>
       <a class="hero-title-link" href="#services">
-        <h1 class="hero-h1">People Operations made easy.</h1>
+        <h1 class="hero-h1">Hiring and HR, run with you — not handed off.</h1>
       </a>
       <p class="hero-lead">If you're a founder or operator spending more time on people problems than building, Trilly Co. helps you hire better, clean up HR workflow, and put systems in place that actually hold up.</p>
       <p class="hero-cta-copy"><strong>Get Started Today!</strong></p>
